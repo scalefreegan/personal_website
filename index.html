@@ -28,6 +28,13 @@ Released   : 20130406
   ga('send', 'pageview');
 
 </script>
+<script src="./javascript/jquery-1.9.1.min.js"></script>
+<script src="./javascript/colorbox-master/jquery.colorbox-min.js"></script>
+<script>
+        $(document).ready(function(){
+            $(".r1").colorbox({transition:"fade"});
+            }
+</script>
 </head>
 <body>
 <div id="wrapper">
@@ -60,7 +67,7 @@ Released   : 20130406
 					<div class="image"><img src="images/networked.jpg" width="324" height="200" alt="" /></div>
 					<h2>Redefining modular regulatory states</h2>
 					<p>Controling when, where, and how much of a gene product to produce is paramount for life. The mechanisms underlying this process, however, can be highly complicated, entirely environment-dependent, and difficult to discern from data. We have developed a new perspective on genetic regulation that helps demystify this complexity.</p>
-					<a href="#" class="button">Learn More</a>
+					<a class = "r1" href="./content/modular.html" title = "tmp" class="button">Learn More</a>
 				</div>
 			</div>
 		</div>
