@@ -33,10 +33,9 @@ Released   : 20130406
 <script src="./javascript/colorbox-master/jquery.colorbox-min.js"></script>
 <script>
         $(document).ready(function(){
-            $("#cv").colorbox({  
+            $("#cv").colorbox({ 
+                rel:'cv',
                 transition:"elastic",
-                width:"80%", 
-                height:"80%",
                 });
         });
 </script>
@@ -62,10 +61,7 @@ Released   : 20130406
 	</div>
     <div id="page" class="container">
         <div class="content" style="text-align:center">
-            <a id = "cv" src="./content/aaron_brooks_cv_Page_1.jpg" class="button" >View</a>
-            <a id = "cv" src="./content/aaron_brooks_cv_Page_2.jpg" ></a>
-            <a id = "cv" src="./content/aaron_brooks_cv_Page_3.jpg" ></a>
-            <a id = "cv" src="./content/aaron_brooks_cv_Page_4.jpg" ></a>
+            <a id = "cv" src="./content/aaron_brooks_cv_Page_4.jpg" class="button" >View</a>
             <a href="./content/aaron_brooks_cv.pdf" class="button">Download</a>
         </div>
     </div>
