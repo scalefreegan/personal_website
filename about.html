@@ -48,14 +48,14 @@
               <div class="nav-collapse collapse">
                 <ul class="nav">
                   <li><a href="./main.html">Home</a></li>
-                  <li><a href="./about.html">About</a></li>
+                  <li class="active"><a href="./about.html">About</a></li>
                   <li><a id="contact" href="#">Say Hi</a></li>
                   <li><a href="http://scalefreegan.wordpress.com/">Blog</a></li>
                   <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                      <li class="active"><a href="./cv.html">CV</a></li>
+                      <li><a href="./cv.html">CV</a></li>
                       <li><a href="./links.html">Links</a></li>
                     </ul>
                   </li>
@@ -68,19 +68,9 @@
       </div><!-- /.navbar-wrapper -->
   	
       <div class="featurette">
-          <h2 class="featurette-heading center">curriculum vitae</h2>
-          <p align="center"><img class="img-circle" src="./img/icons/cv-01.png" height="200" width="200" style="vertical-align:middle"></img></p>
+          <!-- <h2 class="featurette-heading center">about me</h2> -->
+          <p align="center"><img class="img-rounded" src="./img/icons/construction-01.png" height="500" width="500" style="vertical-align:middle"></img></p>
     	</div>
-          <p align="center">
-              <a id="cv1" rel="group1" class="btn btn-large btn-primary" href="./content/aaron_brooks_cv_Page_1.jpg">View</a>
-              <a id="cv2" rel="group1" href="./content/aaron_brooks_cv_Page_2.jpg"></a>
-              <a id="cv3" rel="group1" href="./content/aaron_brooks_cv_Page_3.jpg"></a>
-              <a id="cv4" rel="group1" href="./content/aaron_brooks_cv_Page_4.jpg"></a>
-          </p>
-          <p align="center">
-              <a href="./content/aaron_brooks_cv.pdf" class="btn btn-large btn-link">Download</a>
-          </p>
-    </div>
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -106,31 +96,7 @@
     <script src="./js/colorbox-master/jquery.colorbox-min.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script>
-            $(document).ready(function(){
-                $("#cv1").colorbox({ 
-                    rel:'group1',
-                    transition:"elastic",
-                    maxWidth:"100%",
-                    maxHeight:"100%",
-                    });
-                $("#cv2").colorbox({ 
-                    rel:'group1',
-                    transition:"elastic",
-                    maxWidth:"100%",
-                    maxHeight:"100%",
-                    });
-                $("#cv3").colorbox({ 
-                    rel:'group1',
-                    transition:"elastic",
-                    maxWidth:"100%",
-                    maxHeight:"100%",
-                    });
-                $("#cv4").colorbox({ 
-                    rel:'group1',
-                    transition:"elastic",
-                    maxWidth:"100%",
-                    maxHeight:"100%",
-                    });   
+      $(document).ready(function(){   
                 $("#contact").popover({ 
                     trigger:"click",
                     placement:"bottom",
@@ -138,7 +104,7 @@
                     content:"abrooks AT systemsbiology.org",
                     delay: { show: 0, hide: 1000 }
                     });
-            });
+              });
     </script>
   </body>
 </html>
