@@ -33,7 +33,7 @@
         .cboxIframe{background:#fff;}
         #cboxError{padding:50px; border:1px solid #ccc;}
         #cboxLoadedContent{margin-bottom:28px;}
-        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxTitle{position:absolute; bottom:-25px; left:0%; text-align:left; width:100%; color:#949494;margin-bottom: 23px;font-size: 0.9em;background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);}
         #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
         #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
         #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}

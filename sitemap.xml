@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.aaron-brooks.org/</loc>
+  <lastmod>2013-06-11T19:29:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.aaron-brooks.org/about.html</loc>
+  <lastmod>2013-06-11T19:29:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.aaron-brooks.org/cv.html</loc>
+  <lastmod>2013-06-11T19:29:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.aaron-brooks.org/links.html</loc>
+  <lastmod>2013-06-11T19:29:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.aaron-brooks.org/projects/modular_regulatory_states.html</loc>
+  <lastmod>2013-06-11T19:29:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.aaron-brooks.org/projects/microbe_intelligence.html</loc>
+  <lastmod>2013-06-11T19:29:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.aaron-brooks.org/projects/cell_adaptation.html</loc>
+  <lastmod>2013-06-11T19:29:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.aaron-brooks.org/index.html</loc>
+  <lastmod>2013-06-11T19:29:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.aaron-brooks.org/content/aaron_brooks_cv.pdf</loc>
+  <lastmod>2013-06-11T19:28:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.aaron-brooks.org/content/brooksetal_2010.pdf</loc>
+  <lastmod>2013-06-11T19:28:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>
