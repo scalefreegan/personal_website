@@ -29,48 +29,63 @@
   <body>
      <div id="wrap">
 
-      <!-- NAVBAR
-      ================================================== -->
-       <div class="navbar-wrapper">
-        <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-        <div class="container">
+<!-- NAVBAR
+    ================================================== -->
+     <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
 
-          <div class="navbar navbar-inverse">
-            <div class="navbar-inner">
-              <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="brand" href="./index.html">Aaron Brooks</a>
-              <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-              <div class="nav-collapse collapse">
-                <ul class="nav">
-                  <li><a href="./index.html">Home</a></li>
-                  <li class="active"><a href="./about.html">About</a></li>
-                  <li><a id="contact" href="#">Say Hi</a></li>
-                  <li><a href="http://scalefreegan.wordpress.com/">Blog</a></li>
-                  <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="./cv.html">CV</a></li>
-                      <li><a href="./links.html">Links</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div><!--/.nav-collapse -->
-            </div><!-- /.navbar-inner -->
-          </div><!-- /.navbar -->
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="index.html">Aaron Brooks</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="index.html"><i class="icon-home icon-white"></i></a></li>
+                <li class="active"><a href="about.html"><i class="icon-user icon-white"></i></a></li>
+                <li><a href="#" id="contact"><i class="icon-envelope icon-white"></i></a></li>
+                <li><a href="http://scalefreegan.wordpress.com/"><i class="icon-pencil icon-white"></i></a></li>
+                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="cv.html"><i class="icon-file"></i> CV</a></li>
+                    <li><a href="links.html"><i class="icon-random"></i> Links</a></li>
+                    <li><a href="http://github.com/scalefreegan"><i class="icon-wrench"></i> Github</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
 
-        </div> <!-- /.container -->
-      </div><!-- /.navbar-wrapper -->
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
   	
+    <div class="container marketing">
       <div class="featurette">
-          <!-- <h2 class="featurette-heading center">about me</h2> -->
-          <p align="center"><img class="img-rounded" src="./img/icons/construction-01.png" height="500" width="500" style="vertical-align:middle"></img></p>
+          <!-- <h2 class="featurette-heading center">about me</h2> --> 
+          <img class="img-polaroid pull-left" src="./img/aaron.jpg" width="50%" style="margin-right:20px"></img>
+          <p class="lead"><strong>Aaron Brooks</strong> is a PhD Candidate in the <a href="http://depts.washington.edu/mcb/">Molecular and Cellular Biology Program</a> at the <a href="http://www.washington.edu/">University of Washington.</a> and a member of <a href="http://baliga.systemsbiology.net/drupal/">Nitin Baliga's lab</a> at the <a href="https://www.systemsbiology.org/">Institute for Systems Biology</a> in Seattle, WA.</p>
+          <p class="lead">Aaron studies gene regulatory networks in prokaryotes. Blending <span class="muted"><strong><a href="#">hypothesis-driven experimentation</a></strong></span>, <span class="muted"><strong><a href="#">large-scale data analysis</a></strong></span>, and <span class="muted"><strong><a href="#">theoretical insights from complexity science</a></strong></span>, his research aims to uncover how gene regulatory networks naturally evolve and how we can modify them to produce valuable chemical commodities.</p>
+          <p class="lead">Aaron holds degrees in Biochemistry (BS) and Political Science (BA) from the <a href="http://www.unm.edu/">University of New Mexico</a>, where he worked with <a href="http://hsc.unm.edu/som/cbp/bear.shtml">David Bear</a> in Cell Biology and Physiology and <a href="http://www.cs.unm.edu/~terran/">Terran Lane</a> in Computer Science. Aaron participated in the <a href="http://www.santafe.edu/">Santa Fe Institute's</a> Complex Systems Summer School. His research has recieved numerous accolades, including recognition from the <a href="http://scgf.orau.gov/">U.S. Department of Energy</a> and the <a href="http://www.act.org/goldwater/">Goldwater Scholarship Program</a>.</p>
+          <p class="lead">Outside of the lab, Aaron is an avid 
+            <a id="cv1" rel="group1" href="./img/aaron.jpg" title="Summit of Mount Olympus, WA">mountaineer</a>
+            <a id="cv2" rel="group1" href="./img/aaron2.jpg" title="Mazama Headwall, Mount Adams, WA"></a>
+            <a id="cv3" rel="group1" href="./img/aaron3.jpg" title="SW Corner, Joshua Tree, CA"></a>
+            <a id="cv4" rel="group1" href="./img/aaron4.jpg" title="Snoqualmie Mountain, WA"></a>
+            <a id="cv5" rel="group1" href="./img/aaron5.jpg" title="Summit of Mount Rainier, WA"></a>
+            <a id="cv6" rel="group1" href="./img/aaron6.jpg" title="Dragontail Peak, WA"></a>
+            <a id="cv7" rel="group1" href="./img/aaron7.jpg" title="Mount Baker, WA"></a>
+            <a id="cv8" rel="group1" href="./img/aaron8.jpg" title="Glacier Peak, WA"></a>, gardener, and brewer.</p>
     	</div>
+    </div>
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -95,6 +110,58 @@
     <script src="./js/jquery-1.9.1.min.js"></script>
     <script src="./js/colorbox-master/jquery.colorbox-min.js"></script>
     <script src="./js/bootstrap.js"></script>
+    <script>
+            $(document).ready(function(){
+                $("#cv1").colorbox({ 
+                    rel:'group1',
+                    transition:"elastic",
+                    maxWidth:"100%",
+                    maxHeight:"100%",
+                    });
+                $("#cv2").colorbox({ 
+                    rel:'group1',
+                    transition:"elastic",
+                    maxWidth:"100%",
+                    maxHeight:"100%",
+                    });
+                $("#cv3").colorbox({ 
+                    rel:'group1',
+                    transition:"elastic",
+                    maxWidth:"100%",
+                    maxHeight:"100%",
+                    });
+                $("#cv4").colorbox({ 
+                    rel:'group1',
+                    transition:"elastic",
+                    maxWidth:"100%",
+                    maxHeight:"100%",
+                    });
+                $("#cv5").colorbox({ 
+                    rel:'group1',
+                    transition:"elastic",
+                    maxWidth:"100%",
+                    maxHeight:"100%",
+                    });
+                $("#cv6").colorbox({ 
+                    rel:'group1',
+                    transition:"elastic",
+                    maxWidth:"100%",
+                    maxHeight:"100%",
+                    });  
+                $("#cv7").colorbox({ 
+                    rel:'group1',
+                    transition:"elastic",
+                    maxWidth:"100%",
+                    maxHeight:"100%",
+                    });  
+                $("#cv8").colorbox({ 
+                    rel:'group1',
+                    transition:"elastic",
+                    maxWidth:"100%",
+                    maxHeight:"100%",
+                    });    
+            });
+    </script>
     <script>
       $(document).ready(function(){   
                 $("#contact").popover({ 

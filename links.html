@@ -29,48 +29,59 @@
   <body>
      <div id="wrap">
 
-      <!-- NAVBAR
-      ================================================== -->
-       <div class="navbar-wrapper">
-        <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-        <div class="container">
+<!-- NAVBAR
+    ================================================== -->
+     <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
 
-          <div class="navbar navbar-inverse">
-            <div class="navbar-inner">
-              <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="brand" href="./index.html">Aaron Brooks</a>
-              <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-              <div class="nav-collapse collapse">
-                <ul class="nav">
-                  <li><a href="./index.html">Home</a></li>
-                  <li><a href="./about.html">About</a></li>
-                  <li><a id="contact" href="#">Say Hi</a></li>
-                  <li><a href="http://scalefreegan.wordpress.com/">Blog</a></li>
-                  <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="./cv.html">CV</a></li>
-                      <li class="active"><a href="./links.html">Links</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div><!--/.nav-collapse -->
-            </div><!-- /.navbar-inner -->
-          </div><!-- /.navbar -->
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="index.html">Aaron Brooks</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="index.html"><i class="icon-home icon-white"></i></a></li>
+                <li><a href="about.html"><i class="icon-user icon-white"></i></a></li>
+                <li><a href="#" id="contact"><i class="icon-envelope icon-white"></i></a></li>
+                <li><a href="http://scalefreegan.wordpress.com/"><i class="icon-pencil icon-white"></i></a></li>
+                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="cv.html"><i class="icon-file"></i> CV</a></li>
+                    <li class="active"><a href="links.html"><i class="icon-random"></i> Links</a></li>
+                    <li><a href="http://github.com/scalefreegan"><i class="icon-wrench"></i> Github</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
 
-        </div> <!-- /.container -->
-      </div><!-- /.navbar-wrapper -->
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
   	
-      <div class="featurette">
-          <!-- <h2 class="featurette-heading center">links</h2> -->
-          <p align="center"><img class="img-rounded" src="./img/icons/construction-01.png" height="500" width="500" style="vertical-align:middle"></img></p>
-    	</div>
+    <div class="container marketing">
+        <div class="featurette" style="padding-top:125px">
+          <a href="http://baliga.systemsbiology.net/drupal/"><img class="img-circle pull-right" width="500px" src="./img/link_images/baliga.gif" style="margin-left:50px"></a>
+          <h3 class="featurette-heading"><strong>Baliga</strong> lab at <span class="muted">ISB</span></h3>
+          <p> The Baliga Lab reverse engineers biological circuits to understand how cells adapt to new environments. The lab's long term vision is to use predictive mathematical gene regulatory network models to drive engineering designer circuits for a variety of biotechnological applications such as bioenergy, bioremediation and medicine.</p>
+          <a class="btn btn-large btn-inverse" href="http://baliga.systemsbiology.net/drupal/">Go there<a>
+        </div>
+        <hr class="featurette-divider">
+        <div class="featurette" style="padding-top:10px">
+          <a href="http://www.systemsbiology.org/"><img class="img-circle pull-left" style="margin-right:70px; margin-left:10%" width="20%" src="./img/link_images/isb.png"></img></a>
+          <h3 class="featurette-heading"><span class="muted">Institute</span> for <strong>Systems Biology</strong></h3>
+          <p>ISB pioneered systems-approaches to biology. Since its founding in 2000, the ISB has been a global leader in personalized medicine, environmental sustainability, and global health research. In addition to its strong advocacy for open and interdisciplinary science, the Institute has been recognized for its contribution to modernizing scientific education paradigms.</p>
+          <a class="btn btn-large btn-inverse" href="https://www.systemsbiology.org/">Go there</a>
+        </div>
     </div>
 
     <!-- FOOTER -->

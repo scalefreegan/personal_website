@@ -29,7 +29,7 @@
 
   <div id="wrap">
 
-    <!-- NAVBAR
+   <!-- NAVBAR
     ================================================== -->
      <div class="navbar-wrapper">
       <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
@@ -47,16 +47,17 @@
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../about.html">About</a></li>
-                <li><a id="contact" href="#">Say Hi</a></li>
-                <li><a href="http://scalefreegan.wordpress.com/">Blog</a></li>
+                <li><a href="../index.html"><i class="icon-home icon-white"></i></a></li>
+                <li><a href="../about.html"><i class="icon-user icon-white"></i></a></li>
+                <li><a href="#" id="contact"><i class="icon-envelope icon-white"></i></a></li>
+                <li><a href="http://scalefreegan.wordpress.com/"><i class="icon-pencil icon-white"></i></a></li>
                 <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="../cv.html">CV</a></li>
-                    <li><a href="../links.html">Links</a></li>
+                    <li><a href="../cv.html"><i class="icon-file"></i> CV</a></li>
+                    <li><a href="../links.html"><i class="icon-random"></i> Links</a></li>
+                    <li><a href="http://github.com/scalefreegan"><i class="icon-wrench"></i> Github</a></li>
                   </ul>
                 </li>
               </ul>
@@ -67,9 +68,14 @@
       </div> <!-- /.container -->
     </div><!-- /.navbar-wrapper -->
 
-    <div class="featurette">
-          <!-- <h2 class="featurette-heading center">Modular Regulatory States</h2> -->
-          <p align="center"><img class="img-rounded" src="../img/icons/construction-01.png" height="500" width="500" style="vertical-align:middle"></img></p>
+   <div class="container marketing">
+
+      <div class="featurette">
+            <h2 class="featurette-heading"><strong>A systems scale mechanistic model for environment-dependent modular states of a transcriptional regulatory network</strong></h2>
+            <p class="lead">A foremost challenge in systems biology is to understand how a limited cohort of transcription factors (TFs) craft specialized responses to varied environmental challenges. Here, we present a novel gene-organizational structure, the co-regulated module (corem), that reflects the functional integration of complex regulatory signals across the entire genome. In contrast to other regulatory units (such as operons, regulons), corems emerge from both canonical control mechanisms (e.g. combinatorial TF regulation at gene promoters) as well as more unconventional regulatory mechanisms. Corems, in fact, unite components of multiple operons and regulons into single co-regulatory units. We discovered corems by applying an ensemble-based, semi-supervised biclustering algorithm and multiscale community detection algorithms to large compendiums of transcriptomic data for two model organisms: a bacterium (Escherichia coli K-12) and an archaeon (Halobacterium salinarum NRC-1). We obtained highly-accurate nucleotide-resolution gene regulatory networks (GRNs) that statistically model how the genome-wide distribution and conditional-activities of gene regulatory elements (GREs; i.e. binding sites for TFs) encode sophisticated, environment-specific regulatory programs. Using corems, we deconstruct the complexity of gene regulation by (1) demonstrating sequence-level mechanisms for the conditional segmentation of operons and regulons, (2) delineating how corem activity permits environment-dependent modulation of central metabolic pathways, and, finally, (3) providing an explanation for many observed high co-fitness relationships that cannot be explained by operons, regulons, or mere co-expression. The model we present has implications both for the evolution of GRNs and their practical use in synthetic biology.</p>
+            <hr class="featurette-divider">
+            <p>This work has not been published yet. More information will be available after publication.</p>
+      </div>
     </div>
 
     <footer>
