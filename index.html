@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal website for Aaron Brooks, systems biologist in Seattle, WA">
     <meta name="author" content="Aaron Brooks">
-
+    <meta name="keywords" content="Aaron,Brooks,Aaron Brooks,Aaron Neil Brooks,University of Washington,UW,Institute for Systems Biology,ISB,Seattle,WA,Systems,Biology,Systems Biology,Gene,Networks,Gene Networks,Gene Regulatory Networks,Microbes,E. coli,Halobacterium,NRC-1,Evolution,Molecular Biology,Complex Systems,Complexity Science,University of New Mexico,UNM,Goldwater,DOE,SCGF">
     <!-- CSS styles -->
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
@@ -41,7 +41,6 @@
                 <li class="active" title="Home"><a href="#"><i class="icon-home icon-white"></i></a></li>
                 <li><a href="about.html" title="About me"><i class="icon-user icon-white"></i></a></li>
                 <li><a href="#" id="contact"><i class="icon-envelope icon-white"></i></a></li>
-                
                 <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
@@ -55,14 +54,14 @@
                   </ul>
                 </li>
               </ul>
+              <ul class="nav pull-right">
+                <li><a href="#" id="twitter_e"><i class="icon-twitter icon-white"></i></a></li>
+                <!-- <li style="padding:0% 5% 0% 0%" id="tweet"></li> -->
+              </ul>
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
-        <div class="pull-right" style="margin-top:-2%;">
-          <a class="twitter-timeline"  width="250" height="100" href="https://twitter.com/scalefreegan"  data-widget-id="374157963054698496" data-chrome="nofooter noheader noborders noscrollbar" data-tweet-limit="1">Tweets by @scalefreegan</a>
-        </div>
       </div> <!-- /.container -->
-
     </div><!-- /.navbar-wrapper -->
 
 
@@ -161,7 +160,7 @@
         $(function(){
           // carousel demo
           $('#myCarousel').carousel({
-            interval:7000
+            interval:6000
           })
         })
       }(window.jQuery)
@@ -169,13 +168,22 @@
     <script>
       $(document).ready(function(){   
                 $("#contact").popover({ 
-                    trigger:"click",
+                    trigger:"focus",
                     placement:"bottom",
                     title:"Email me:",
                     content:"abrooks AT systemsbiology.org",
+                    delay: { show: 100, hide: 100 }
+                    })
+                $("#twitter_e").tooltip({ 
+                    trigger:"click",
+                    placement:"bottom",
+                    html:true,
+                    title:'This is where the tweet will go',
                     delay: { show: 0, hide: 1000 }
-                    });
-              })
+                    })
+                $('#twitter_e').tooltip('show')
+                twitterFetcher.fetch('374157963054698496', '', 1, true,false,false,'',false,handleTweets)
+              });
     </script>
     <script src="./js/holder.js"></script>
     <script>
@@ -186,7 +194,19 @@
       ga('create', 'UA-40493126-1', 'aaron-brooks.org');
       ga('send', 'pageview');
     </script>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    <script>
+    function handleTweets(tweets){
+      var x = tweets.length;
+      var n = 0;
+      var element = document.getElementById('tweet');
+      var html = '';
+      while(n < x) {
+        html += '<font color="white">' + tweets[n].toString().split('</p>')[0].split('<p>')[0] + '</font>';
+        n++;
+      }
+      element.innerHTML = html;
+      $('#twitter_e').tooltip(title:html);
+      }
     </script>
   </body>
 </html>
