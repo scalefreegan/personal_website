@@ -34,13 +34,13 @@ body {
 }
 
 a {
-	color: #f0f0f0;
+	color: #47a3da;
 	text-decoration: none;
 	outline: none;
 }
 
 a:hover {
-	color: #000;
+	color: #e4e4e4;
 }
 
 .container > header {
@@ -206,6 +206,7 @@ a:hover {
 
 .fa-icon-lightbulb:after {
 	content: "\f0eb";
+	color:#FDD017
 }
 
 .fa-icon-cv:after {

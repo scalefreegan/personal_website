@@ -27,7 +27,12 @@
 
 .grid-gallery figcaption h3 {
 	margin: 0;
-	padding: 0 0 0.5em;
+	padding: 0 0 0.1em;
+}
+
+.grid-gallery figcaption h4 {
+	margin: 0;
+	padding: 0.3em 0 0.75em;
 }
 
 .grid-gallery figcaption p {
