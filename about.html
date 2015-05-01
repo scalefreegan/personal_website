@@ -1,66 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Blueprint: Vertical Timeline</title>
-		<meta name="description" content="Blueprint: Vertical Timeline" />
-		<meta name="keywords" content="timeline, vertical, layout, style, component, web development, template, responsive" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/timeline.css" />
-		<script src="js/modernizr.custom.js"></script>
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Aaron Brooks | About</title>
+	<meta name="description" content="Personal website for Aaron Brooks, currently a systems biologist at EMBL in Heidelberg, Germany" />
+	<meta name="keywords" content="Aaron,Brooks,Aaron Brooks,Aaron Neil Brooks,EMBL,European Molecular Biology Laboratory,Genome Biology Unit,University of Washington,UW,Institute for Systems Biology,ISB,Seattle,WA,Systems,Biology,Systems Biology,Gene,Networks,Gene Networks,Gene Regulatory Networks,Microbes,E. coli,Halobacterium,NRC-1,Evolution,Molecular Biology,Complex Systems,Complexity Science,University of New Mexico,UNM,Goldwater,DOE,SCGF" />
+	<meta name="author" content="Aaron Brooks" />
+	<link rel="shortcut icon" href="favicon2.ico">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	
+	<link rel="stylesheet" href="css/timeline-style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+</head>
+<body>
+	<div class="container">
+		<header class="clearfix">
+			<span style="color:#C0C0C0">Science of complex biological systems <span class="fa-icon fa-icon-lightbulb" id="quote" data-content="something"></span></span>
+			<h1>Aaron N. Brooks / PhD</h1>
+			<nav>
+				<a href="./" class="fa-icon fa-icon-flask" data-info="Home"><span>Home</span></a>
+				<a href="./about.html" class="fa-icon fa-icon-user" data-info="About me"><span>About me</span></a>
+				<a href="./content/abrooks_cv.pdf" class="fa-icon fa-icon-cv" data-info="CV"><span>CV</span></a>
+				<a href="http://twitter.com/scalefreegan" class="fa-icon fa-icon-twitter" data-info="Twitter"><span>Twitter</span></a>
+				<a href="http://github.com/scalefreegan" class="fa-icon fa-icon-github" data-info="Github"><span>Github</span></a>
+				<a href="http://www.linkedin.com/pub/aaron-brooks/17/774/3b3" class="fa-icon fa-icon-linkedin" data-info="LinkedIn"><span>LinkedIn</span></a>
+				<a href="http://scalefreegan.wordpress.com/" class="fa-icon fa-icon-wordpress" data-info="Blog"><span>Blog</span></a>
+			</nav>
+		</header>
 
-	</head>
-	<body>
-		<div class="container">
-			<header class="clearfix">
-				<span>Science of complex biological systems</span>
-				<h1>Aaron N. Brooks / PhD</h1>
-				<nav>
-					<a href="./" class="fa-icon fa-icon-flask" data-info="Home"><span>Home</span></a>
-					<a href="./about.html" class="fa-icon fa-icon-user" data-info="About me"><span>About me</span></a>
-					<a href="./content/abrooks_cv.pdf" class="fa-icon fa-icon-cv" data-info="CV"><span>CV</span></a>
-					<a href="http://twitter.com/scalefreegan" class="fa-icon fa-icon-twitter" data-info="Twitter"><span>Twitter</span></a>
-					<a href="http://github.com/scalefreegan" class="fa-icon fa-icon-github" data-info="Github"><span>Github</span></a>
-					<a href="http://www.linkedin.com/pub/aaron-brooks/17/774/3b3" class="fa-icon fa-icon-linkedin" data-info="LinkedIn"><span>LinkedIn</span></a>
-					<a href="http://scalefreegan.wordpress.com/" class="fa-icon fa-icon-wordpress" data-info="Blog"><span>Blog</span></a>
-				</nav>
-			</header>	
-			<div class="main">
-				<div class="cbp_tmlabel"><img src="img/large/usasef.png" alt="usasef"/><p> Some stuff</p></div>
-				<ul class="cbp_tmtimeline">
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>2008-2014</span></time>
-						<div class="fa-icon fa-icon-cv"></div>
-						<div class="cbp_tmlabel">
-							<h2>PhD @ Institute for Systems Biology and University of Washington</h2>
-							<p>Baliga lab</p>
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>2002-2007</span> </time>
-						<div class="fa-icon fa-icon-cv"></div>
-						<div class="cbp_tmlabel">
-							<h2>BS and BA @ University of New Mexico</h2>
-							<p>Yo</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img">
+				<img src="icons/cd-icon-yeast.svg" alt="Yeast">
+			</div> <!-- cd-timeline-img -->
 
-			ga('create', 'UA-40493126-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-	</body>
+			<div class="cd-timeline-content">
+				<h2>Postdoc @ EMBL</h2>
+				<p>Steinmetz group, Genome Biology Unit</p>
+				<a href="http://www.embl.de/research/units/genome_biology/steinmetz/" class="cd-read-more">More</a>
+				<span class="cd-date">Heidelberg, Germany | April 2015 - Now</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img">
+				<img src="icons/cd-icon-halo.svg" alt="Halo">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>PhD @ ISB and UW</h2>
+				<p>
+					Baliga lab, Institute for Systems Biology
+				</p>
+				<p style="font-style: italic;">
+					<em>DOE Office of Science Graduate Research Fellow</em>
+				</p>
+				<a href="https://www.systemsbiology.org/baliga-group" class="cd-read-more">More</a>
+				<span class="cd-date">Seattle, WA | 2008 - 2014 </span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img">
+				<img src="icons/cd-icon-rna.svg" alt="RNA">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>BS &amp; BA @ UNM</h2>
+				<p>David Bear lab, Cell Biology and Physiology</p>
+				<p>Terran Lane group, Computer Science</p>
+				<p style="font-style: italic;">Goldwater Scholar</p>
+				<a href="http://cbp.unm.edu/faculty_pages/bear/index.html" class="cd-read-more">More</a>
+				<span class="cd-date">Albuquerque, NM | 2002 - 2007 </span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+	</section> <!-- cd-timeline -->
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpGridGallery.js"></script>
+<script>
+	new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+</script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-40493126-1', 'auto');
+	ga('send', 'pageview');
+</script>
+<script>
+	$( document ).ready(function() {
+		var quotes = [
+			" \"Know how to solve every problem that has been solved.\" - Richard Feynman",
+			" \"He who is in love is wise and is becoming wiser, sees newly every time he looks at the object beloved, drawing from it with his eyes and his mind those virtues which it possesses.\" - Ralph Waldo Emerson",
+			" \"Science is a way of trying not to fool yourself. The first principle is that you must not fool yourself, and you are the easiest person to fool.\" - Richard Feynman",
+			" \"What is a weed? A plant whose virtues have yet to be discovered.\" - Ralph Waldo Emerson",
+			" \"Every man I meet is in some way my superior; and in that I can learn of him.\" - Ralph Waldo Emerson",
+			" \"I hate quotation. Tell me what you know.\" - Ralph Waldo Emerson",
+			" \"Nature is a mutable cloud, which is always and never the same.\" - Ralph Waldo Emerson",
+			" \"There's real poetry in the real world. Science is the poetry of reality.\" - Richard Dawkins",
+			" \"All of science is nothing more than the refinement of everyday thinking.\" - Albert Einstein",
+			" \"Wissenschaft und Kunst gehören der Welt an, und vor ihnen verschwinden die Schranken der Nationalität.\" - Johann Wolfgang von Goethe",
+			" \"Science is the knowledge of many, orderly and methodically digested and arranged, so as to become attainable by one.\" - John Frederick William Herschel",
+			" \"Science is the topography of ignorance.\" - Oliver Wendell Holmes, Sr.",
+			" \"The great tragedy of Science — the slaying of a beautiful hypothesis by an ugly fact.\" - Thomas Henry Huxley",
+			" \"Science is the first of sins, the germ of all sins, the original sin. This is all there is of morality—“Thou shalt not know”—the rest follows from that.\" - Friedrich Nietzsche",
+			" \"A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it.\" - Max Planck",
+			" \"Science is built up with facts, as a house is with stones. But a collection of facts is no more a science than a heap of stones is a house.\" - Henri Poincaré",
+			" \"To doubt everything or to believe everything are two equally convenient truths; both dispense with the necessity of reflection.\" - Henri Poincaré",
+			" \"Science is much more than a body of knowledge. It is a way of thinking. This is central to its success. Science invites us to let the facts in, even when they don’t conform to our preconceptions.\" - Carl Sagan",
+			" \"So many people today — and even professional scientists — seem to me like someone who has seen thousands of trees but has never seen a forest.\" - Albert Einstein",
+			" \"You could not step twice into the same river.\" - Heraclitus",
+			" \"Time is a game played beautifully by children.\" - Heraclitus",
+			" \"I am so used to plunging into the unknown that any other surroundings and form of existence strike me as exotic and unsuitable for human beings.\" - Werner Herzog"
+
+		];
+			$( "#quote" ).attr( "data-content", quotes[Math.floor(Math.random()*quotes.length)] )
+	});
+</script>
+</body>
 </html>
