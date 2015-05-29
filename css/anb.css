@@ -12,11 +12,11 @@
 }
 @font-face {
 	font-family: 'fontawesome';
-	src:url('../fonts/font-awesome2/fonts/fontawesome-webfont.eot');
-	src:url('../fonts/font-awesome2/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/font-awesome2/fonts/fontawesome-webfont.woff') format('woff'),
-		url('../fonts/font-awesome2/fonts/fontawesome-webfont.ttf') format('truetype'),
-		url('../fonts/font-awesome2/fonts/fontawesome-webfont#ontawesome') format('svg');
+	src:url('../fonts/font-awesome/fonts/fontawesome-webfont.eot');
+	src:url('../fonts/font-awesome/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'),
+		url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf') format('truetype'),
+		url('../fonts/font-awesome/fonts/fontawesome-webfont#ontawesome') format('svg');
 	font-weight: normal;
 	font-style: normal;
 } /* Made with http://icomoon.io/ */
@@ -231,6 +231,10 @@ a:hover {
 
 .fa-icon-wordpress:after {
 	content: "\f19a";
+}
+
+.fa-icon-book:after {
+	content: "\f02d";
 }
 
 @media screen and (max-width: 55em) {
